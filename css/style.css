@@ -1,0 +1,32 @@
+@import url('https://fonts.googleapis.com/css2?family=Open+Sans:wght@500;700&display=swap');
+@import url('header.css');
+@import url('intro.css');
+@import url('tablets.css');
+@import url('footer.css');
+
+* {
+    margin: 0;
+    padding: 0;
+}
+
+body {
+    font-family: "Open Sans", sans-serif;
+}
+
+.container {
+    width: 1240px;
+    margin: 0 auto;
+}
+
+@media (max-width: 1370px) {
+    .container {
+        width: 1030px;
+    }
+}
+
+@media (max-width: 1050px) {
+    .container {
+        width: auto;
+        margin: 0 30px;
+    }
+}
